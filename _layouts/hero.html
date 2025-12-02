@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="hero-container">
+  <div class="hero-left">
+    <img class="hero-avatar" src="{{ site.author.avatar | relative_url }}" alt="avatar">
+
+    <h1 class="hero-name">{{ site.author.name }}</h1>
+    <p class="hero-title">{{ site.author.bio }}</p>
+    <p class="hero-school">{{ site.author.location }}</p>
+
+    <div class="hero-social">
+      {% if site.author.email %}<a href="mailto:{{ site.author.email }}">✉️</a>{% endif %}
+      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub</a>{% endif %}
+      {% if site.author.linkedin %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>{% endif %}
+    </div>
+  </div>
+
+  <div class="hero-right">
+    {{ content }}
+  </div>
+</div>
