@@ -48,25 +48,29 @@ permalink: /experience/
 
 
 <!-- ========== Languages ========== -->
-<section class="language-section">
-  <h2>Languages</h2>
+<h2 class="lang-title">Languages</h2>
 
-  <div class="language-ring-container">
+<div class="lang-donut-container">
 
-    <div class="lang-ring">
-      <div class="circle c85">85%</div>
-      <p>English</p>
+  <div class="lang-donut-item">
+    <div class="donut donut-85">
+      <span>85%</span>
     </div>
-
-    <div class="lang-ring">
-      <div class="circle c100">100%</div>
-      <p>Chinese</p>
-    </div>
-
-    <div class="lang-ring">
-      <div class="circle c25">25%</div>
-      <p>French</p>
-    </div>
-
+    <p>English</p>
   </div>
-</section>
+
+  <div class="lang-donut-item">
+    <div class="donut donut-100">
+      <span>100%</span>
+    </div>
+    <p>Chinese</p>
+  </div>
+
+  <div class="lang-donut-item">
+    <div class="donut donut-25">
+      <span>25%</span>
+    </div>
+    <p>Japanese</p>
+  </div>
+
+</div>
