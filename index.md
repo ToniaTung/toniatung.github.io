@@ -12,10 +12,9 @@ My name is **Chiao-Jo (Tonia) Tung**. I am currently a Master student at the **U
 
 ## Interests
 
-- Machine Learning & Computer Vision  
+- Machine Learning
+- Computer Vision  
 - Robotics & Mechatronic Systems  
-- Intelligent Automation  
-- Data-Driven Engineering  
 
 ---
 
