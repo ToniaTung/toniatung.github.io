@@ -1,10 +1,7 @@
 ---
-permalink: /
+permalink: /about/
 title: "About Me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
 My name is Chiao-Jo (Tonia) Tung. I am currently a master student at the **University of Michigan Mechanical Engineering Department** (starting Fall 2025). I previously earned my **B.S. in Biomechatronics Engineering** from **National Taiwan University (NTU)**.
