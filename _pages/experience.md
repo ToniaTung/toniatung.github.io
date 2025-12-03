@@ -24,11 +24,8 @@ permalink: /experience/
 
 
 <!-- ========== Skills & Hobbies ========== -->
-<h2>Skills & Hobbies</h2>
-
 <div class="skills-hobby-grid">
 
-  <!-- Technical Skills -->
   <div class="skills-col">
     <h3>Technical Skills</h3>
     <ul>
@@ -38,11 +35,10 @@ permalink: /experience/
     </ul>
   </div>
 
-  <!-- Hobbies -->
   <div class="hobby-col">
     <h3>Hobbies</h3>
     <ul>
-      <li>🏸 Squash</li>
+      <li>🎾 Squash</li>
       <li>🎾 Tennis</li>
       <li>✈️ Travel</li>
       <li>🎿 Ski</li>
@@ -50,9 +46,6 @@ permalink: /experience/
   </div>
 
 </div>
-
-<hr>
-
 
 <!-- ========== Languages ========== -->
 <h2>Languages</h2>
@@ -75,4 +68,5 @@ permalink: /experience/
   </div>
 
 </div>
+
 
