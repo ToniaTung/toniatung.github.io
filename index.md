@@ -6,9 +6,7 @@ permalink: /
 
 ## About Me
 
-My name is **Chiao-Jo (Tonia) Tung**. I am currently pursuing a **Master of Science in Engineering in Mechanical Engineering** at the **University of Michigan, Ann Arbor** (starting Fall 2025). I previously earned my **Bachelor of Science in Biomechatronics Engineering** from **National Taiwan University (NTU)**.
-
-My academic background lies at the intersection of **machine learning, computer vision, and mechatronic systems**, with hands-on research experience in **deep learning–based object detection, image classification, and intelligent automation systems**.
+My name is **Chiao-Jo (Tonia) Tung**. I am currently a Master student at the **University of Michigan Mechanical Engineering Department** (starting Fall 2025). Prior to that, I received my **B.S. in Biomechatronics Engineering** from **National Taiwan University (NTU)**, where I was advised by Prof. Yan-Fu Kuo in the Lab of **Machine Learning and Machine Vision** at NTU.
 
 ---
 
