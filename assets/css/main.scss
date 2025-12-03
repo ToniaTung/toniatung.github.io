@@ -162,4 +162,56 @@ $button-hover-bg-color: #1d4ed8 !default;
     gap: 32px;
   }
 }
+/* ===== Education ===== */
+.edu-block {
+  margin-top: 24px;
+}
+
+.edu-item {
+  margin-bottom: 24px;
+}
+
+.edu-item h3 {
+  margin-bottom: 4px;
+}
+
+/* ===== Skills & Hobbies Two Columns ===== */
+.skills-hobby-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  margin-top: 24px;
+}
+
+.skills-hobby-grid ul {
+  margin-top: 12px;
+}
+
+/* ===== Language Rings ===== */
+.language-ring-container {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-top: 32px;
+}
+
+.lang-ring {
+  text-align: center;
+}
+
+.circle {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 10px solid #ddd;
+  line-height: 90px;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* 百分比樣式 */
+.c85 { border-color: #e11d48; }
+.c100 { border-color: #b91c1c; }
+.c25 { border-color: #9ca3af; }
 
