@@ -304,3 +304,28 @@ h2 {
   font-size: 2.4rem !important;
   font-weight: 800;
 }
+/* ================================
+   🔧 Force Unified Section Titles
+   ================================ */
+
+/* ✅ Experience Page Titles（全部等於 Education） */
+.education-section h2,
+.skills-hobby-grid h3,
+.skills-col h3,
+.hobby-col h3,
+.language-section h2,
+.language-ring-container h2,
+.page__content h2 {
+  font-size: 2.2rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 18px !important;
+  letter-spacing: 0.5px;
+}
+
+/* ✅ Bio Hero Page Titles（全部等於 About Me） */
+.hero-right h2,
+.hero-right h3 {
+  font-size: 2.4rem !important;
+  font-weight: 800 !important;
+  margin-bottom: 16px !important;
+}
