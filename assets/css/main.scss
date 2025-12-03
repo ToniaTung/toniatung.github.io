@@ -322,10 +322,24 @@ h2 {
   letter-spacing: 0.5px;
 }
 
-/* ✅ Bio Hero Page Titles（全部等於 About Me） */
-.hero-right h2,
-.hero-right h3 {
-  font-size: 2.4rem !important;
+/* ✅ About Me 本體 */
+.hero-right > h2 {
+  font-size: 2.5rem !important;
   font-weight: 800 !important;
-  margin-bottom: 16px !important;
+}
+
+/* ✅ 下面左右兩塊的標題（Interests / Education） */
+.hero-right .hero-column h3,
+.hero-right .hero-column h2,
+.hero-right h3 {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  margin-top: 28px !important;
+  margin-bottom: 18px !important;
+}
+
+/* ✅ 防止 Jekyll 內建 h3/h4 偷改大小 */
+.hero-right h3 *,
+.hero-right h4 * {
+  font-size: inherit !important;
 }
