@@ -20,8 +20,8 @@ My name is **Chiao-Jo (Tonia) Tung**. I am currently a Master student at the **U
 
 ## Education
 
-**Master of Science in Engineering, Mechanical Engineering**  
+**M.S. in Mechanical Engineering**  
 University of Michigan, Ann Arbor  
 
-**Bachelor of Science in Biomechatronics Engineering**  
+**B.S. in Biomechatronics Engineering**  
 National Taiwan University  
