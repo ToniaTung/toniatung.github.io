@@ -130,7 +130,7 @@ $button-hover-bg-color: #1d4ed8 !default;
 }
 
 .hero-right {
-  padding: 35px 96px;
+  padding: 30px 96px;
 }
 
 .hero-right h2 {
@@ -144,15 +144,22 @@ $button-hover-bg-color: #1d4ed8 !default;
   font-size: 1.05rem;
   line-height: 1.8;
 }
-/* ✅ Interests + Education 左右並排 */
 .hero-split {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  margin-top: 40px;
+  display: flex;              /* ✅ 讓兩個區塊變左右 */
+  gap: 64px;                  /* ✅ 中間間距 */
+  margin-top: 32px;
+  align-items: flex-start;
 }
 
-.hero-column h3 {
-  margin-top: 0;
+.hero-column {
+  flex: 1;                    /* ✅ 兩邊各佔一半 */
+}
+
+/* ✅ 手機版自動改回上下 */
+@media (max-width: 768px) {
+  .hero-split {
+    flex-direction: column;
+    gap: 32px;
+  }
 }
 
