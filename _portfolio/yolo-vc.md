@@ -1,6 +1,6 @@
 ---
-title: "Layout-to-Image Deep Learning for Voltage Contrast Analysis (YOLO-VC)"
-excerpt: "Industry project contribution: layout-to-image conversion, SEM registration, and deep-learning data pipelines for voltage-contrast inference."
+title: "YOLO-VC: Layout-to-Image & SEM Registration Pipeline"
+excerpt: "Industry project contribution: layout-to-image conversion and SEM registration infrastructure for voltage-contrast analysis."
 collection: portfolio
 permalink: /projects/yolo-vc/
 date: 2025-02-11
@@ -14,10 +14,9 @@ layout: single
 This work was conducted during my time as a **Part-Time Research Assistant at PDF Solutions Inc.**  
 The project focuses on **automating voltage contrast (VC) analysis** in semiconductor failure analysis using deep learning.
 
-⚠️ **Note on authorship and scope**  
-- This was an **internal industry project**
-- I am **not a paper co-author**
-- The content below reflects **only the components I personally designed and implemented**
+> **Project Type:** Internal industry research & engineering project  
+> **Authorship:** *I am **not** a paper author*  
+> **Scope:** This page documents **only the components I personally designed and implemented**
 
 ---
 
