@@ -4,8 +4,12 @@ excerpt: "Industry project contribution: layout-to-image conversion and SEM regi
 collection: portfolio
 permalink: /projects/yolo-vc/
 
-project_year: 2025
-venue: "PDF Solutions Inc. — Internal Industry Project"
+project_start: 2024-06
+project_end: 2025-02
+
+venue: "PDF Solutions Inc. (Industry Project)"
+project_type: "Industry R&D"
+
 layout: single
 
 ---
