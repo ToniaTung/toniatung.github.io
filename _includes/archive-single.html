@@ -42,7 +42,7 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'portfolio' and post.project_start %}
+        {% elsif post.project_start %}
           <p class="page__date">
             <strong>
               <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
@@ -50,7 +50,7 @@
             </strong>
             {{ post.project_start | date: "%b %Y" }}
             {% if post.project_end %}
-              &ndash; {{ post.project_end | date: "%b %Y" }}
+              – {{ post.project_end | date: "%b %Y" }}
             {% endif %}
           </p>
         
@@ -60,9 +60,7 @@
               <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
               {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}
             </strong>
-            <time datetime="{{ post.date | date_to_xmlschema }}">
-              {{ post.date | date: "%B %d, %Y" }}
-            </time>
+            {{ post.date | date: "%B %d, %Y" }}
           </p>
         {% endif %}
 
