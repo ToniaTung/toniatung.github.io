@@ -11,9 +11,6 @@ main:
   - title: "Bio"
     url: /
 
-  - title: "Publications"
-    url: /publications/
-
   - title: "Projects"
     url: /projects/
 
