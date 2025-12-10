@@ -7,7 +7,7 @@ permalink: /projects/3d-printed-gearbox/
 project_start: 2024-02
 project_end: 2024-06
 layout: single
-order: 3
+order: 4
 ---
 
 ## Overview
