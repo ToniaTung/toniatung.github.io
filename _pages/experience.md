@@ -53,50 +53,42 @@ permalink: /experience/
   <h2>Extracurricular & Leadership Activities</h2>
 
   <div class="extra-item">
-    <div class="extra-title">
-      Treasurer, Fighting Sports Club & School Team
-    </div>
+    <div class="extra-title">Treasurer, Fighting Sports Club & School Team</div>
     <div class="extra-org">
       National Taiwan University
       <span class="extra-date">Sept 2023 – Jun 2025</span>
     </div>
-    <ul>
-      <li>Led financial planning and budget management for competitions and club events</li>
-      <li>Secured sponsorships for two major annual competitions, increasing funding by 20%</li>
-      <li>Coordinated sponsorship proposals and aligned partner priorities with event goals</li>
-    </ul>
+    <p class="extra-desc">
+      Led financial planning, sponsorship coordination, and budget management for
+      competitive student organizations.
+    </p>
   </div>
 
   <div class="extra-item">
-    <div class="extra-title">
-      Volunteer, International Companionship Learning
-    </div>
+    <div class="extra-title">Volunteer, International Companionship Learning</div>
     <div class="extra-org">
       Ministry of Education, Taiwan
       <span class="extra-date">Sept 2022 – Jun 2025</span>
     </div>
-    <ul>
-      <li>Organized cultural exchange sessions for international and rural students</li>
-      <li>Designed interactive discussion formats to increase participation and engagement</li>
-      <li>Supported cross-cultural communication and inclusive learning environments</li>
-    </ul>
+    <p class="extra-desc">
+      Supported cross-cultural exchange programs and student engagement initiatives
+      for international and rural communities.
+    </p>
   </div>
 
   <div class="extra-item">
-    <div class="extra-title">
-      Conference & Symposium Organizer
-    </div>
+    <div class="extra-title">Conference & Symposium Organizer</div>
     <div class="extra-org">
       National Taiwan University
       <span class="extra-date">Sept 2023 – Oct 2024</span>
     </div>
-    <ul>
-      <li>Managed logistics for academic conferences with 100+ attendees</li>
-      <li>Coordinated venue booking, schedules, meals, and visiting faculty</li>
-      <li>Handled contingency planning during last-minute venue changes</li>
-    </ul>
+    <p class="extra-desc">
+      Coordinated logistics and on-site operations for academic conferences with
+      100+ participants.
+    </p>
   </div>
 </section>
+
 
 
 
