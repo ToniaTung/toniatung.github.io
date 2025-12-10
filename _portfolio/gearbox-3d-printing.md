@@ -23,7 +23,6 @@ and load-bearing systems. The robot was the primary competition exhibit, with su
 ## System Architecture
 The system consists of three major subsystems:
 - A triathlon robot platform responsible for locomotion and task execution
-- A high-ratio custom gearbox enabling torque amplification
 - Lightweight truss-based structures fabricated using additive manufacturing
 - 
 ## Triathlon Robot (Primary Competition System)
