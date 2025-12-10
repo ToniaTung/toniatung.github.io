@@ -7,7 +7,8 @@ collection: portfolio
 ---
 {% include base_path %}
 
-{% for post in site.portfolio %}
+{% assign projects = site.portfolio | sort: "order" %}
+{% for post in projects %}
   {% include archive-single.html %}
 {% endfor %}
 
