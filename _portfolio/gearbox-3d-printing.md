@@ -4,8 +4,8 @@ project_type: "Mechatronics / Mechanical Design"
 excerpt: "Mechanical design and fabrication of load-bearing systems using CAD and additive manufacturing."
 collection: portfolio
 permalink: /projects/3d-printed-gearbox/
-project_start: 2024-02
-project_end: 2024-06
+project_start: 2024-09
+project_end: 2024-12
 layout: single
 order: 4
 ---
