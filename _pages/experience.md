@@ -30,7 +30,8 @@ permalink: /experience/
     <h3>Technical Skills</h3>
     <ul>
       <li>🐍 Python</li>
-      <li>🔥 PyTorch</li>
+      <li>🟦 MATLAB</li>
+      <li>🔥 PyTorch</li>     
       <li>🤖 Robotics & Mechatronics</li>
     </ul>
   </div>
