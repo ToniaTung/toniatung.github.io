@@ -10,6 +10,13 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
   </head>
+  {% if site.author.resume %}
+  <li>
+    <a href="{{ site.author.resume }}" target="_blank">
+      <i class="fa fa-file-text-o"></i> Resume
+    </a>
+  </li>
+{% endif %}
 
   <body>
 
