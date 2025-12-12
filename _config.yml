@@ -29,6 +29,7 @@ author:
   location         : "University of Michigan"
   uri              : # URL
   email            : "chiaojo@umich.edu" 
+  resume           : "/files/resume.pdf"
 
   # Academic websites
   academia         : # URL
