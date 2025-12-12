@@ -5,7 +5,7 @@ tonia:
   bio: "Student / Mechanical Engineering"
   location: "University of Michigan"
   email: "chiaojo@umich.edu"   # ← 換成你自己的
-  resume: "/assets/files/resume.pdf"
+  resume: "/files/resume.pdf"
 
   avatar: "tonia.jpg"          # ← 你現在用的那張大頭照檔名
 
