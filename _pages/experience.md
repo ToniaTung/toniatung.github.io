@@ -2,6 +2,7 @@
 layout: single
 title: ""
 permalink: /experience/
+description: "Technical skills in Python, MATLAB, robotics, embedded systems, CAD, and machine learning for engineering applications."
 ---
 
 <!-- ========== Education ========== -->
