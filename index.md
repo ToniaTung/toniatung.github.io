@@ -14,15 +14,13 @@ keywords:
 ---
 <style>
 .about-text a {
-  color: inherit;
-  text-decoration: none;
-  cursor: pointer;
+  color: inherit;            /* 顏色完全跟本文一致 */
+  text-decoration: none;     /* 沒有底線 */
 }
 
 .about-text a:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
+  opacity: 0.85;             /* 非常輕微的 hover 回饋 */
+  cursor: pointer;
 }
 </style>
 
