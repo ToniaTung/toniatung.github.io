@@ -24,6 +24,37 @@ description: "Technical skills in Python, MATLAB, robotics, embedded systems, CA
 
 
 
+<!-- ========== Selected Projects ========== -->
+<section class="projects-section">
+  <h2>Selected Projects</h2>
+
+  <ul class="project-list">
+    <li>
+      <strong>Automated Insect Counting & Classification System</strong> —
+      Developed a two-stage computer vision pipeline using YOLO and deep learning
+      for object detection and classification in agricultural imagery.
+    </li>
+
+    <li>
+      <strong>SEM Layout-to-Image & Registration Pipeline</strong> —
+      Built an applied computer vision and perception pipeline for layout-to-image
+      conversion and image registration in semiconductor inspection.
+    </li>
+
+    <li>
+      <strong>Mechatronic Systems & Robotics Projects</strong> —
+      Designed and implemented embedded control and sensing systems using
+      Raspberry Pi, Arduino, and PID control for hardware-integrated prototypes.
+    </li>
+  </ul>
+
+  <p class="projects-note">
+    → See the <a href="/projects/">Projects</a> page for detailed descriptions.
+  </p>
+</section>
+
+
+
 <!-- ========== Skills & Hobbies ========== -->
 <div class="skills-hobby-grid">
 
