@@ -15,7 +15,7 @@ keywords:
 
 ## About Me
 
-**Mechanical engineering graduate student with a strong interdisciplinary background in machine learning, computer vision, and robotics. Experienced in developing applied AI pipelines for real-world problems, including data preparation, deep learning–based perception, and model evaluation. Seeking opportunities in advanced automation, intelligent systems, and applied AI engineering.**
+**Mechanical engineering graduate student with an interdisciplinary background in machine learning, computer vision, and mechatronic systems. Experienced in applying data-driven and perception-based methods to real-world engineering problems, including data preparation, deep learning–based perception, and model evaluation. Interested in building intelligent engineering systems that integrate sensing, computation, and physical hardware.**
 
 My name is Chiao-Jo (Tonia) Tung. I am currently a Master student at the **University of Michigan Mechanical Engineering Department**. Prior to that, I received my **B.S. in Biomechatronics Engineering** from **National Taiwan University (NTU)**, where I was advised by **Prof. Yan-Fu Kuo** in the Lab of **Machine Learning and Machine Vision** at NTU.
 
