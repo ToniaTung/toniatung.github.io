@@ -26,7 +26,7 @@ description: "Technical skills in Python, MATLAB, robotics, embedded systems, CA
 
 <!-- ========== Selected Projects ========== -->
 <section class="projects-section">
-  <h2>Selected Projects</h2>
+  <h2>Projects</h2>
 
   <ul class="project-list">
     <li>
