@@ -14,12 +14,14 @@ keywords:
 ---
 <style>
 .about-text a {
-  color: inherit;            /* 顏色完全跟本文一致 */
+  font-weight: 600;          /* ✅ 粗體（比 bold 更專業） */
+  color: inherit;            /* 顏色跟正文一樣 */
   text-decoration: none;     /* 沒有底線 */
 }
 
 .about-text a:hover {
-  opacity: 0.85;             /* 非常輕微的 hover 回饋 */
+  opacity: 0.9;              /* 非侵略式 hover */
+  text-decoration: none;     /* hover 也不出現底線 */
   cursor: pointer;
 }
 </style>
