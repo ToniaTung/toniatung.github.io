@@ -3,6 +3,13 @@ layout: hero
 title: "About Me"
 permalink: /
 author_profile: true
+description: "Mechanical engineering graduate student specializing in robotics, machine learning, and computer vision."
+keywords: 
+  - mechanical engineering
+  - robotics
+  - machine learning
+  - computer vision
+  - mechatronics
 ---
 
 ## About Me
