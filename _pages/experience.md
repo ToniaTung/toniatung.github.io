@@ -29,10 +29,10 @@ permalink: /experience/
   <div class="skills-col">
     <h3>Technical Skills</h3>
     <ul>
-      <li>🐍 Python · 🔥 PyTorch · 🟦 MATLAB</li>
-      <li>👁️ YOLO · OpenCV · Image Processing</li>
-      <li>🤖 Robotics & Mechatronics · PID</li>
-      <li>🛠 CAD · 3D Printing · Arduino</li>     
+      <li><strong>Programming:</strong> 🐍 Python · 🟦 MATLAB</li>
+      <li><strong>Machine Learning & CV:</strong> 🔥 PyTorch · YOLO · OpenCV · Image Processing</li>
+      <li><strong>Robotics & Control:</strong> 🤖 Robotics & Mechatronic Systems · PID</li>
+      <li><strong>Design & Hardware:</strong> 🛠 CAD · 3D Printing · Arduino</li>     
     </ul>
   </div>
 
