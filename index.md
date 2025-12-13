@@ -28,7 +28,7 @@ keywords:
 
 ## About Me
 
-**Mechanical engineering graduate student with an interdisciplinary background in machine learning, computer vision, and mechatronic systems. Experienced in applying data-driven and perception-based methods to real-world engineering problems, including data preparation, deep learning–based perception, and model evaluation. Interested in building intelligent engineering systems that integrate sensing, computation, and physical hardware.**
+Mechanical engineering graduate student with an interdisciplinary background in **machine learning**, **computer vision**, and **mechatronic systems**. Experienced in applying **data-driven** and **perception-based** methods to real-world engineering problems, including data preparation, deep learning–based perception, and model evaluation. Interested in building intelligent engineering systems that integrate sensing, computation, and physical hardware.
 
 <div class="about-text">
 
