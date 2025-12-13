@@ -13,13 +13,16 @@ keywords:
   - applied AI
 ---
 <style>
-.about-text a,
-.about-text a:visited,
-.about-text a:hover,
-.about-text a:active {
+.about-text a {
   color: inherit;
   text-decoration: none;
-  font-weight: inherit;
+  cursor: pointer;
+}
+
+.about-text a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 </style>
 
