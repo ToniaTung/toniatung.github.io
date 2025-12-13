@@ -17,7 +17,16 @@ keywords:
 
 **Mechanical engineering graduate student with an interdisciplinary background in machine learning, computer vision, and mechatronic systems. Experienced in applying data-driven and perception-based methods to real-world engineering problems, including data preparation, deep learning–based perception, and model evaluation. Interested in building intelligent engineering systems that integrate sensing, computation, and physical hardware.**
 
-My name is Chiao-Jo (Tonia) Tung. I am currently a Master student at the <a href="https://me.engin.umich.edu/" target="_blank">**University of Michigan Mechanical Engineering Department**. Prior to that, I received my <a href="https://www.bime.ntu.edu.tw/English/Default.html" target="_blank">**B.S. in Biomechatronics Engineering** from **National Taiwan University (NTU)**, where I was advised by <a href="https://www.mlmvlab.bime.ntu.edu.tw/%E6%8C%87%E5%B0%8E%E8%80%81%E5%B8%AB?lang=en" target="_blank">**Prof. Yan-Fu Kuo** in the Lab of <a href="https://www.mlmvlab.bime.ntu.edu.tw/?lang=en" target="_blank">**Machine Learning and Machine Vision** at NTU.
+My name is Chiao-Jo (Tonia) Tung. I am currently a Master student at the
+[**University of Michigan Mechanical Engineering Department**](https://me.engin.umich.edu/).
+Prior to that, I received my
+[**B.S. in Biomechatronics Engineering**](https://www.bime.ntu.edu.tw/English/Default.html)
+from [**National Taiwan University (NTU)**](https://www.ntu.edu.tw/),
+where I was advised by
+[**Prof. Yan-Fu Kuo**](https://www.mlmvlab.bime.ntu.edu.tw/%E6%8C%87%E5%B0%8E%E8%80%81%E5%B8%AB?lang=en)
+in the Lab of
+[**Machine Learning and Machine Vision**](https://www.mlmvlab.bime.ntu.edu.tw/?lang=en)
+at NTU.
 
 ---
 
