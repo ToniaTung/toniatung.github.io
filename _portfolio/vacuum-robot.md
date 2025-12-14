@@ -1,6 +1,6 @@
 ---
 title: "Autonomous Vacuum Robot (Mechatronics System Design)"
-excerpt: "An autonomous mobile vacuum robot integrating embedded control, PID-based navigation, and sensor-driven system integration."
+excerpt: "An autonomous mobile vacuum robot integrating embedded control, PID-based navigation, and vision-assisted perception."
 collection: portfolio
 permalink: /projects/autonomous-vacuum-robot/
 project_start: 2024-09-01
@@ -13,82 +13,111 @@ order: 3
 ## Project Context
 
 This project was conducted as a **course-based mechatronics system design project**
-focusing on autonomous navigation and embedded control for mobile robotic platforms.
+focused on autonomous navigation and embedded control for mobile robotic platforms.
 
-**Project Type:** Mechatronics system design & robotics  
+**Project Type:** Mechatronics system design and robotics  
 **Application Domain:** Autonomous mobile robots  
-**Problem Focus:** Embedded control, sensing integration, and closed-loop navigation  
+**Problem Focus:** Embedded control, sensing integration, and closed-loop autonomous navigation  
 
-This page documents the **components I personally designed and implemented**
-within the overall system.
+This page documents **only the components I personally designed, implemented,
+and tested** within the overall system.
+
+---
 
 ## My Role and Contributions
 
-I was responsible for key aspects of the **embedded systems, hardware integration,
-and vision-based perception** of the autonomous vacuum robot.
+I was responsible for key aspects of the **hardware control, embedded perception,
+and system-level integration** of the autonomous vacuum robot.
 
 My contributions include:
 
-- Designing the **robot control circuitry**, including power distribution and
-  motor interface considerations
-- Co-configuring the **Raspberry Pi environment**, including system setup and
-  integration with peripheral sensors
+- Designing and validating the **robot control circuitry**, including motor power
+  distribution and interface considerations
+- Co-configuring the **Raspberry Pi software environment** for embedded vision
+  and sensor integration
 - Participating in **robot chassis assembly and hardware integration**, ensuring
-  reliable mounting, wiring, and component accessibility
+  stable mounting, wiring reliability, and accessibility for debugging
 - Developing and optimizing **vision-based image recognition algorithms**
-  for real-time perception tasks
-- Supporting system-level debugging across hardware, embedded software,
+  for real-time color detection
+- Assisting with **PID control testing and parameter tuning**, focusing on
+  system stability and real-world behavior
+- Supporting **system-level debugging** across hardware, embedded software,
   and perception modules
 
 My work focused on ensuring **reliable interaction between sensing, computation,
-and physical hardware** within the autonomous system.
+and physical actuation** under real-time constraints.
 
 ---
 
 ## System Overview
 
-The autonomous vacuum robot consists of an embedded control architecture
-that integrates sensing, computation, and actuation for autonomous navigation.
+The autonomous vacuum robot integrates embedded control, perception, and actuation
+to achieve autonomous navigation and debris collection.
 
-The system includes:
+Key system components include:
 
-- Embedded motor control with closed-loop feedback
-- Sensor-based distance measurement for obstacle avoidance
-- Vision-assisted perception using Raspberry Pi
-- Inter-processor communication for coordinated decision-making
+- Arduino-based motor control with closed-loop feedback
+- Raspberry Pi for real-time image-based perception
+- Ultrasonic sensors for distance measurement and obstacle detection
+- H-bridge motor driver for differential drive control
+- Inter-processor communication between Arduino and Raspberry Pi
 
 ---
 
 ## Control and Embedded Implementation
 
-### PID-Based Navigation Control
+### PID-Based Autonomous Navigation
 
-I implemented a **PID control strategy** to regulate robot motion during wall-following
-and obstacle-avoidance behaviors.
+I participated in the **testing and validation of a PID-based control strategy**
+used for wall-following and autonomous navigation.
 
-Key aspects include:
+My involvement included:
 
-- Defining distance and orientation error metrics using ultrasonic sensor feedback
-- Tuning proportional, integral, and derivative gains to ensure stable motion
-- Limiting motor speed to prevent control-induced oscillations
-- Achieving consistent navigation without predefined trajectories
+- Assisting with the definition of distance error metrics using ultrasonic sensor feedback
+- Supporting PID parameter tuning through repeated testing
+- Evaluating system stability and responsiveness under different gain settings
+- Identifying control-induced oscillations and mechanical stress issues during testing
+
+This process helped refine the control behavior
+and improve navigation reliability under real-world conditions.
 
 ---
 
 ## Embedded Vision and System Integration
 
-To support perception-driven behaviors, I contributed to the development
-and optimization of the embedded vision pipeline.
+To support perception-driven behaviors, I developed and optimized
+the embedded vision pipeline on the Raspberry Pi.
 
-My work includes:
+My contributions include:
 
-- Implementing image recognition algorithms for color-based detection
-- Optimizing perception performance for real-time execution on Raspberry Pi
-- Configuring the embedded software environment for stable operation
-- Assisting with integration between vision outputs and control logic
+- Implementing **real-time color detection algorithms** for visual event recognition
+- Configuring the Raspberry Pi environment for stable camera operation
+- Supporting communication between Raspberry Pi and Arduino
+  for perception-driven control decisions
+- Assisting with debugging issues related to processing latency
+  and hardware reliability
 
-These components enabled perception-informed decision-making
-within the autonomous navigation system.
+This perception module enabled the robot to react to visual cues
+and modify behavior accordingly.
+
+---
+
+## System Operation and Limitations
+
+During testing and competition deployment, the system demonstrated:
+
+- Fully autonomous operation using embedded control logic
+- Reliable wall-following behavior under PID control
+- Successful integration of vision-based perception with motion control
+
+However, real-world deployment revealed system-level limitations, including:
+
+- Mechanical reliability issues after extensive testing
+- Sensitivity to hardware wear, such as motor gear loosening
+- Limited opportunity for full-scale environment testing prior to competition
+
+These constraints highlighted the importance of **robust hardware validation**
+and **system-level fault tolerance** in autonomous robotic systems.
 
 ---
 
@@ -96,14 +125,13 @@ within the autonomous navigation system.
 
 My contributions enabled:
 
-- Stable autonomous wall-following behavior using embedded PID control
-- Reliable integration between sensing, computation, and actuation
-- Successful demonstration of a fully autonomous control strategy
-- Identification of system-level limitations related to hardware reliability
-  and inter-processor communication
+- Successful demonstration of a **fully autonomous control strategy**
+- Reliable integration of embedded perception with motion control
+- Practical experience with system uncertainty, hardware failure modes,
+  and real-world testing constraints
 
-This project strengthened my experience in **robot control systems,
-embedded software development, and system integration**.
+This project strengthened my experience in **embedded robotics,
+system integration, and experimental validation**.
 
 ---
 
@@ -111,8 +139,8 @@ embedded software development, and system integration**.
 
 - Arduino IDE
 - Raspberry Pi
-- PID control
-- Embedded systems programming
+- Embedded C and Python
+- PID control testing and tuning
 - Sensor integration
-- Inter-processor communication
+- Embedded vision systems
 - System-level debugging and testing
