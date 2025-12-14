@@ -1,6 +1,6 @@
 ---
 title: "Autonomous Vacuum Robot (Mechatronics System Design)"
-excerpt: "Designed and built an autonomous mobile vacuum robot integrating mechanical design, embedded control, sensing, and system-level integration."
+excerpt: "An autonomous mobile vacuum robot integrating embedded control, PID-based navigation, and sensor-driven system integration."
 collection: portfolio
 permalink: /projects/autonomous-vacuum-robot/
 project_start: 2024-09-01
@@ -12,102 +12,107 @@ order: 3
 
 ## Project Context
 
-This project was conducted as a **mechatronics system design and robotics integration project**, with the goal of developing a fully autonomous mobile vacuum robot capable of real-world navigation and debris collection.
+This project was conducted as a **course-based mechatronics system design project**
+focusing on autonomous navigation and embedded control for mobile robotic platforms.
 
-**Project Type:** Course-based mechatronics and robotics system design  
-**Application Domain:** Autonomous mobile robotics  
-**Engineering Focus:** Mechanical design, embedded control, sensing, and system integration  
+**Project Type:** Mechatronics system design & robotics  
+**Application Domain:** Autonomous mobile robots  
+**Problem Focus:** Embedded control, sensing integration, and closed-loop navigation  
 
-The project emphasized **end-to-end system development**, from mechanical design and airflow optimization to embedded control, sensing, and autonomous behavior without predefined trajectories.
+This page documents the **components I personally designed and implemented**
+within the overall system.
 
 ## My Role and Contributions
 
-I was responsible for the **overall system design and integration**, covering mechanical, electrical, and software components.
+I was responsible for key aspects of the **embedded systems, hardware integration,
+and vision-based perception** of the autonomous vacuum robot.
 
 My contributions include:
 
-- Designing the complete mechanical structure, vacuum module, and chassis
-- Implementing embedded motor control and PID-based navigation algorithms
-- Integrating ultrasonic sensing and vision-based perception
-- Managing inter-processor communication between Arduino and Raspberry Pi
-- Performing system-level tuning, testing, and failure analysis
-- Leading system integration and final autonomous deployment
+- Designing the **robot control circuitry**, including power distribution and
+  motor interface considerations
+- Co-configuring the **Raspberry Pi environment**, including system setup and
+  integration with peripheral sensors
+- Participating in **robot chassis assembly and hardware integration**, ensuring
+  reliable mounting, wiring, and component accessibility
+- Developing and optimizing **vision-based image recognition algorithms**
+  for real-time perception tasks
+- Supporting system-level debugging across hardware, embedded software,
+  and perception modules
 
-This project reflects hands-on experience in **robotics system engineering**, where mechanical design, control, sensing, and computation must function cohesively.
+My work focused on ensuring **reliable interaction between sensing, computation,
+and physical hardware** within the autonomous system.
+
+---
 
 ## System Overview
 
-The autonomous vacuum robot consists of multiple tightly coupled subsystems:
+The autonomous vacuum robot consists of an embedded control architecture
+that integrates sensing, computation, and actuation for autonomous navigation.
 
-- Embedded motor control and navigation
-- Ultrasonic-based obstacle avoidance and wall-following
-- Vision-based color detection
-- Custom-designed vacuum and debris collection module
+The system includes:
 
-The system operates fully autonomously, relying on onboard sensing and control without external localization or predefined paths.
+- Embedded motor control with closed-loop feedback
+- Sensor-based distance measurement for obstacle avoidance
+- Vision-assisted perception using Raspberry Pi
+- Inter-processor communication for coordinated decision-making
 
-## Embedded Control and Navigation
+---
 
-### Motor Control and PID Regulation
+## Control and Embedded Implementation
 
-- Implemented Arduino-based motor control using DC motors and an H-bridge driver
-- Designed PID controllers for wall-following navigation
-- Defined distance and orientation error metrics using dual ultrasonic sensors
-- Tuned control gains to achieve stable motion and reduce oscillations
-- Applied wheel speed limits to prevent instability during tight maneuvers
+### PID-Based Navigation Control
 
-This control strategy enabled smooth navigation while maintaining consistent wall-following behavior.
+I implemented a **PID control strategy** to regulate robot motion during wall-following
+and obstacle-avoidance behaviors.
 
-## Sensing and Perception
+Key aspects include:
 
-### Ultrasonic Sensing
+- Defining distance and orientation error metrics using ultrasonic sensor feedback
+- Tuning proportional, integral, and derivative gains to ensure stable motion
+- Limiting motor speed to prevent control-induced oscillations
+- Achieving consistent navigation without predefined trajectories
 
-- Integrated ultrasonic sensors for real-time distance measurement
-- Used sensor logic to support obstacle avoidance and wall-following
-- Addressed noisy measurements through filtering and control constraints
+---
 
-### Vision-Based Detection
+## Embedded Vision and System Integration
 
-- Developed a Raspberry Pi pipeline for real-time color detection
-- Used vision cues to support navigation and task-specific behaviors
-- Designed communication protocols between Raspberry Pi and Arduino
+To support perception-driven behaviors, I contributed to the development
+and optimization of the embedded vision pipeline.
 
-## Mechanical Design and Fabrication
+My work includes:
 
-- Designed vacuum fan, intake geometry, and dust container from scratch
-- Optimized airflow performance using Autodesk CFD simulations
-- Redesigned chassis for improved stability, wiring organization, and accessibility
-- Fabricated structural and vacuum components using 3D printing
-- Integrated mechanical design constraints with electrical and sensing layouts
+- Implementing image recognition algorithms for color-based detection
+- Optimizing perception performance for real-time execution on Raspberry Pi
+- Configuring the embedded software environment for stable operation
+- Assisting with integration between vision outputs and control logic
 
-The mechanical subsystem was designed to support both **functional vacuum performance** and **robust system integration**.
+These components enabled perception-informed decision-making
+within the autonomous navigation system.
 
-## System Integration and Reliability
+---
 
-- Coordinated sensing, control, and actuation across heterogeneous hardware
-- Identified and mitigated communication overload between processors
-- Designed fault-handling strategies to improve runtime stability
-- Performed iterative debugging and system-level testing
+## Outcomes and Impact
 
-This phase highlighted the challenges of **real-world robotics integration**, where performance is constrained by hardware reliability and communication limits.
+My contributions enabled:
 
-## Results and Demonstration
+- Stable autonomous wall-following behavior using embedded PID control
+- Reliable integration between sensing, computation, and actuation
+- Successful demonstration of a fully autonomous control strategy
+- Identification of system-level limitations related to hardware reliability
+  and inter-processor communication
 
-- Successfully demonstrated fully autonomous navigation in the final competition
-- Achieved reliable debris collection and wall-following behavior
-- Only team to deploy a completely autonomous control strategy
-- Completed the task without predefined trajectories or external control
+This project strengthened my experience in **robot control systems,
+embedded software development, and system integration**.
 
-## Lessons Learned and Impact
-
-This project reinforced key principles in robotics and mechatronics engineering:
-
-- Effective robotics systems require tight coordination between mechanics, control, sensing, and computation
-- System-level reliability is often the limiting factor, not individual algorithm performance
-- Early integration and iterative testing are critical for autonomous systems
-
-The project demonstrates my ability to **design, implement, and debug complex mechatronic systems** in realistic engineering settings.
+---
 
 ## Skills and Tools Used
 
-Arduino, Raspberry Pi, Embedded systems, Motor control, PID control, Ultrasonic sensing, Vision pipelines, CAD, Autodesk CFD, 3D printing, Robotics system integration
+- Arduino IDE
+- Raspberry Pi
+- PID control
+- Embedded systems programming
+- Sensor integration
+- Inter-processor communication
+- System-level debugging and testing
