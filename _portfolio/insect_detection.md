@@ -10,32 +10,76 @@ pdfurl: /files/insect-paper.pdf
 order: 1
 ---
 
+## Project Context
+
+This project was conducted as an **academic research and applied computer vision project**
+within the Department of Biomechatronics Engineering at National Taiwan University and was
+published at the **ASABE Annual International Meeting**.
+
+**Project Type:** Academic research & applied AI system  
+**Application Domain:** Precision agriculture & biological monitoring  
+**Problem Focus:** Automated visual inspection for large-scale biological analysis  
+
+This page documents the **complete system pipeline** that I designed and implemented,
+from dataset preparation and model training to robustness evaluation and performance analysis.
+
+---
+
 ## Introduction
 
-Parasitoid wasps play a crucial role in sustainable agriculture by naturally controlling pest populations. In mass-rearing and quality control processes, **accurate counting and gender identification** are essential, as only female wasps possess parasitism capability.
+Parasitoid wasps play a crucial role in sustainable agriculture by naturally controlling
+pest populations. In mass-rearing and quality control processes, **accurate counting and
+gender identification** are essential, as only female wasps possess parasitism capability.
 
-However, parasitoid wasps are extremely small (≈1 mm), and gender differentiation relies on subtle morphological traits, making manual microscopic inspection labor-intensive and impractical at scale.
+However, parasitoid wasps are extremely small (≈1 mm), and gender differentiation relies
+on subtle morphological traits, making manual microscopic inspection labor-intensive and
+impractical at scale.
 
-To address this challenge, this project proposes a **fully automated two-stage deep learning framework** for counting and sex identification of *Trissolcus* sp. parasitoid wasps. By combining **object detection** and **fine-grained gender classification**, the system significantly reduces manual effort while achieving high accuracy and robustness under dense and overlapping conditions.
+To address this challenge, this project proposes a **fully automated two-stage deep learning
+framework** for counting and sex identification of *Trissolcus* sp. parasitoid wasps. By
+combining **object detection** and **fine-grained gender classification**, the system
+significantly reduces manual effort while achieving high accuracy under dense and
+overlapping conditions.
+
+---
+
+## My Role and Contributions
+
+I was responsible for the **end-to-end design and implementation** of the proposed framework.
+My contributions include:
+
+- Designing the overall two-stage system architecture
+- Preparing and organizing high-resolution annotated datasets
+- Training and tuning YOLOv7 for small-object detection under dense scenes
+- Implementing morphology-preserving preprocessing for gender classification
+- Training and evaluating ResNet18-based fine-grained classifiers
+- Designing robustness and cross-species validation experiments
+- Analyzing results and preparing figures and performance reports for publication
+
+This work reflects my direct involvement across **data preparation, model training,
+evaluation, and system-level analysis**.
 
 ---
 
 ## Method Overview
 
-The proposed system consists of two stages:
+The proposed system consists of two sequential stages:
 
 1. Wasp detection and counting  
 2. Gender classification  
 
-High-resolution images are first processed to localize individual wasps efficiently, followed by fine-grained gender classification on cropped regions.
+High-resolution images are first processed to localize individual wasps efficiently,
+followed by fine-grained gender classification on cropped regions.
 
 ---
 
 ## Stage I: Wasp Detection and Counting (YOLOv7)
 
-High-resolution scanner images (3981 × 3981 px) are downsampled to **1120 × 1120 px** for efficient detection.
+High-resolution scanner images (3981 × 3981 px) are downsampled to **1120 × 1120 px**
+for efficient detection.
 
-A **YOLOv7** detector is trained to localize individual wasps. The total count is obtained by summing the predicted bounding boxes.
+A **YOLOv7** detector is trained to localize individual wasps, and the total count
+is obtained by summing predicted bounding boxes.
 
 ### Training Details
 - Optimizer: SGD  
@@ -51,7 +95,8 @@ This stage achieved **mAP@0.5 = 99.4%**.
 
 ## Stage II: Gender Classification (ResNet18)
 
-Detected bounding boxes are mapped back to the original images and cropped without resizing. Crops are center-padded to **640 × 640 px** to preserve morphological details.
+Detected bounding boxes are mapped back to the original images and cropped without resizing.
+Crops are center-padded to **640 × 640 px** to preserve morphological features.
 
 The classifier predicts:
 - Female
@@ -117,12 +162,38 @@ These results demonstrate strong **generalization across species and imaging con
 
 ---
 
+## Outcomes and Impact
+
+This project enabled:
+
+- Reliable automated counting for large-scale biological monitoring
+- Accurate fine-grained classification under dense and occluded conditions
+- Significant reduction of manual microscopic inspection effort
+
+The proposed framework demonstrates how **deep learning–based perception systems**
+can be deployed in real-world agricultural and biological engineering applications.
+
+---
+
+## Skills and Tools Used
+
+- Python
+- YOLOv7
+- ResNet18
+- Computer vision preprocessing
+- Deep learning model training and evaluation
+- Dataset annotation and quality control
+- Scientific performance analysis
+
+---
+
 ## Conclusion and Future Work
 
-This project presents a **scalable and highly accurate automated pipeline** for parasitoid wasp counting and gender identification.
+This project presents a **scalable and highly accurate automated pipeline** for parasitoid
+wasp counting and gender identification.
 
 Future work includes:
-- Expanding datasets across species  
-- Improving robustness under extreme occlusion  
-- Integrating advanced synthetic data generation  
-- Real-world deployment for agricultural monitoring  
+- Expanding datasets across additional species
+- Improving robustness under extreme occlusion
+- Integrating synthetic data augmentation
+- Deployment in real-world agricultural monitoring workflows
