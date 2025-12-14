@@ -27,19 +27,15 @@ from dataset preparation and model training to robustness evaluation and perform
 
 ## Introduction
 
-Parasitoid wasps play a crucial role in sustainable agriculture by naturally controlling
-pest populations. In mass-rearing and quality control processes, **accurate counting and
-gender identification** are essential, as only female wasps possess parasitism capability.
+Parasitoid wasps are widely used in sustainable agriculture for biological pest control.
+In mass-rearing and quality control processes, accurate counting and gender identification
+are critical, as only female wasps possess parasitism capability.
 
-However, parasitoid wasps are extremely small (≈1 mm), and gender differentiation relies
-on subtle morphological traits, making manual microscopic inspection labor-intensive and
-impractical at scale.
-
-To address this challenge, this project proposes a **fully automated two-stage deep learning
-framework** for counting and sex identification of *Trissolcus* sp. parasitoid wasps. By
-combining **object detection** and **fine-grained gender classification**, the system
-significantly reduces manual effort while achieving high accuracy under dense and
-overlapping conditions.
+Due to their extremely small size of approximately one millimeter and subtle morphological differences, manual
+microscopic inspection is labor-intensive and difficult to scale. This project develops a
+semi-automated two-stage deep learning pipeline for counting and sex identification of
+*Trissolcus* sp. parasitoid wasps, combining object detection and fine-grained classification
+to achieve high accuracy under dense and overlapping conditions.
 
 ---
 
