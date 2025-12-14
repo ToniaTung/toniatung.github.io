@@ -1,115 +1,130 @@
 ---
-title: "Triathlon Robot: Integrated Mechanical Design & Mechatronic Systems"
-project_type: "Mechatronics / Mechanical Design"
-excerpt: "Mechanical design and fabrication of load-bearing robotic subsystems using CAD and additive manufacturing."
+title: "Course Projects: Triathlon Robot & Bridge Design"
+excerpt: "Course-based mechanical design and prototyping projects including bridge CAD drafting and triathlon robot assembly support."
 collection: portfolio
-permalink: /projects/3d-printed-gearbox/
+permalink: /projects/course-mechanical-design/
 project_start: 2024-03-01
 project_end: 2024-06-01
+project_type: "Mechanical Design / Mechatronics (Course Project)"
 layout: single
 order: 4
 ---
 
 ## Project Context
 
-This project was conducted as a **course-based mechanical and mechatronic system design project**
-centered on the development of a triathlon robot for competitive evaluation.
+This work was completed as part of a **course-based mechanical design and fabrication project**
+that consisted of **two independent team projects**:
 
-**Project Type:** Mechanical system design & fabrication  
-**Application Domain:** Mobile robotic platforms  
-**Problem Focus:** Load-bearing design, power transmission, and manufacturability  
+1. **Triathlon robot project** (competition-based robotic system)
+2. **Bridge design project** (structural CAD design and fabrication)
 
-The triathlon robot served as the **primary competition system**, with performance evaluated
-based on mechanical reliability, structural integrity, and task execution.
+Both projects emphasized **hands-on mechanical prototyping**, **team collaboration**,
+and **design-for-fabrication workflows**.
 
-This page documents **only the mechanical subsystems I personally designed,
-fabricated, and tested** within the overall robot platform.
+This page documents **only the components and tasks I personally contributed to**,
+and explicitly excludes work performed by other teammates.
+
+**Project Type:** Course project (team-based)  
+**Application Domain:** Mechanical design and prototyping  
+**Focus Areas:** CAD drafting, mechanical assembly, and build integration  
 
 ---
 
 ## My Role and Contributions
 
-I was responsible for the **mechanical design and fabrication** of key load-bearing
-and transmission subsystems of the triathlon robot.
+My role focused on **mechanical drafting support and physical system assembly**.
+My contributions differed across the two projects and are clearly separated below.
 
-My contributions include:
+---
 
-- Designing **custom gearbox and transmission components** to meet torque and load requirements
-- Developing **lightweight truss-based structural components** for mechanical support
-- Optimizing **strength-to-weight ratio** through iterative CAD design
-- Fabricating components using **additive manufacturing**
-- Participating in mechanical assembly and physical testing of fabricated parts
+### Bridge Design Project
 
-My work focused on ensuring **mechanical reliability, manufacturability,
-and structural performance** under competition constraints.
+For the bridge project, my contributions included:
+
+- **CAD drafting and drawing preparation** for bridge components  
+  (co-developed with one teammate)
+- Supporting **team-based assembly and fabrication**, including part fitting
+  and build coordination
+
+I did **not** work independently on structural analysis or optimization;
+assembly was performed collaboratively as a team.
+
+---
+
+### Triathlon Robot Project
+
+For the triathlon robot project, my contributions included:
+
+- **Hands-on mechanical assembly** of the robot platform as part of the team
+- Assisting with **system integration and build readiness**
+- Contributing **a very small amount of CAD drafting** for a float
+  (pontoon-related) component
+
+I did **not** participate in gearbox design, drivetrain modeling,
+or primary mechanical architecture decisions.
 
 ---
 
 ## System Overview
 
-The triathlon robot consists of multiple integrated mechanical subsystems
-designed to support locomotion and task execution.
+### Bridge Design Track
 
-The system includes:
-
-- A mobile robot chassis serving as the primary competition platform
-- Custom-designed gearbox for torque amplification
-- Load-bearing truss structures fabricated via 3D printing
-- Mechanical interfaces for motor mounting and structural integration
+The bridge project focused on:
+- Translating conceptual designs into **clear CAD drawings**
+- Coordinating fabrication through shared design documentation
+- Supporting assembly and integration during the build phase
 
 ---
 
-## Mechanical Design and Fabrication
+### Triathlon Robot Track
 
-### Gearbox Design
-
-I designed a **custom gearbox** to achieve the required output torque
-for competition tasks.
-
-Key design considerations included:
-
-- Torque transmission efficiency
-- Gear alignment and structural support
-- Compact geometry compatible with the robot chassis
-- Manufacturability using additive manufacturing
-
-The gearbox was modeled, fabricated, and tested as part of the integrated system.
+The triathlon robot served as a competition platform and required:
+- Mechanical assembly and component integration
+- Coordination between subsystems for fit, mounting, and reliability
+- Iterative build and testing under time constraints
 
 ---
 
-### Structural and Truss Components
+## What I Implemented
 
-To support the mechanical loads of the robot, I designed
-**truss-based structural components** with an emphasis on:
+### Bridge Project: CAD Drafting and Assembly Support
 
-- Reducing overall system weight
-- Maintaining sufficient rigidity under load
-- Ensuring ease of assembly and maintenance
+**Scope:** CAD drafting + team assembly support
 
-All components were fabricated using **3D printing** and evaluated
-through physical testing during system integration.
+My work included:
+- Producing and refining CAD drawings for bridge components
+- Updating drawings based on fabrication and assembly feedback
+- Assisting with assembly to ensure correct part alignment and fit
+
+---
+
+### Triathlon Robot: Assembly and Minor CAD Contribution
+
+**Scope:** Assembly + limited CAD drafting
+
+My work included:
+- Participating in mechanical assembly and integration of the robot
+- Supporting troubleshooting during physical build stages
+- Drafting a small floating component used in the system
 
 ---
 
 ## Outcomes and Impact
 
-My contributions enabled:
+My contributions supported:
 
-- Reliable mechanical performance during competition tasks
-- Effective torque transmission through custom-designed gear mechanisms
-- Lightweight yet robust structural support for the robot platform
-- Successful deployment of additively manufactured parts in a functional robotic system
+- Clear and usable CAD documentation for bridge fabrication
+- Smooth team-based assembly progress across both projects
+- Improved integration efficiency through hands-on build support
 
-This project strengthened my experience in **mechanical system design,
-fabrication, and real-world validation under competitive constraints**.
+These projects strengthened my experience in **team-based mechanical prototyping**,
+**CAD drafting for fabrication**, and **real-world system integration**.
 
 ---
 
 ## Skills and Tools Used
 
-- CAD-based mechanical design
-- Additive manufacturing (3D printing)
-- Mechanical system integration
-- Structural design and load considerations
-- Fabrication testing and iteration
-
+- CAD drafting and engineering drawings
+- Mechanical assembly and prototyping
+- Team-based fabrication workflows
+- Design communication for manufacturing
