@@ -78,3 +78,14 @@ at NTU.
   </div>
 </div>
 
+---
+
+## Let’s Connect
+
+Have questions about this project or want to discuss collaboration?  
+Feel free to reach out on:
+
+**[LinkedIn](https://www.linkedin.com/in/YOUR-LINK/)** ·  
+**[GitHub](https://github.com/YOUR_GITHUB)** ·  
+**[Email](mailto:your_email@umich.edu)**
+
