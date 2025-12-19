@@ -80,3 +80,13 @@ at NTU.
 
 ---
 
+## Let’s Connect:
+
+<p class="connect-links">
+  <a href="https://www.linkedin.com/in/tonia-tung-4a6306218/" target="_blank">LinkedIn ↗</a>
+  &nbsp;•&nbsp;
+  <a href="https://github.com/toniatung" target="_blank">GitHub ↗</a>
+  &nbsp;•&nbsp;
+  <a href="mailto:chiaojo@umich.edu" target="_blank">Email ↗</a>
+</p>
+
