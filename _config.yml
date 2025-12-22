@@ -153,6 +153,12 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+social:
+  type: Person
+  name: "Chiao-Jo (Tonia) Tung"
+  links:
+    - "https://toniatung.github.io"
+    - "https://www.linkedin.com/in/tonia-tung-4a6306218"
 
 
 # Analytics
